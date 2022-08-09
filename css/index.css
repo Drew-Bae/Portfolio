@@ -1,0 +1,91 @@
+/* Typography */
+@font-face {
+    font-family: 'nunito_sans';
+    src: url('fonts/open-sans/nunitosans-bold-webfont.woff2') format('woff2'),
+         url('fonts/open-sans/nunitosans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'nunito_sans';
+    src: url('fonts/open-sans/nunitosans-regular-webfont.woff2') format('woff2'),
+         url('fonts/open-sans/nunitosans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    /* 62.5% of 16px = 10px */
+    font-size: 62.5%;
+}
+
+body {
+    margin: 10px;
+    font-family: "nunito_sans", Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 3rem 0 1rem;
+    letter-spacing: 0;
+    word-spacing: -2px;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 4.209rem;
+}
+
+h2 {
+    font-size: 3.157rem;
+}
+
+h3 {
+    font-size: 2.369rem;
+}
+
+h4 {
+    font-size: 1.777rem;
+}
+
+h5 {
+    font-size: 1.333rem;
+}
+
+p {
+    color: #333;
+    width: 50ch;
+    text-align: left;
+}
+
+p + p {
+    text-indent: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 100%;
+    }
+
+    body {
+        letter-spacing: 0;
+        word-spacing: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        margin: 3rem 0 .5rem;
+    }
+}
