@@ -1,3 +1,12 @@
+/* Color Palette */
+:root {
+    --color-primary: #4ff4cb;
+    --color-secondary: #e3fdf7;
+    --color-accent: #4fcbf4;
+    --color-headings:;
+    --color-body: #333;
+}
+
 /* Typography */
 @font-face {
     font-family: 'nunito_sans';
@@ -62,7 +71,7 @@ h5 {
 }
 
 p {
-    color: #333;
+    color: var(--color-body);
     width: 50ch;
     text-align: left;
 }
@@ -88,4 +97,35 @@ p + p {
     h5 {
         margin: 3rem 0 .5rem;
     }
+}
+
+/* Links */
+a {
+    color: var(--color-body);
+    text-decoration: none;
+}
+
+.link-effect::before,
+.link-effect::after {
+    display: inline-block;
+    opacity: 0;
+    transition: transform 0.3s, opacity 0.2s;
+}
+
+.link-effect:hover::before,
+.link-effect:hover::after {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.link-effect::before {
+    margin-right: 10px;
+    content: '[';
+    transform: translateX(20px);
+}
+
+.link-effect::after {
+    margin-left: 10px;
+    content: ']';
+    transform: translateX(-20px);
 }
