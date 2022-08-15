@@ -9,9 +9,7 @@
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <div class="banner">
-      <h2>Hello, I'm <a class="hidden" href="#top">Drew!</a></h2>
-    </div>
+    <div class="banner"></div>
     <section>
       <div class="lightbulb">
         <div class="circle">
@@ -29,6 +27,27 @@
         </div>
       </div>
     </section>
+    <header class="header-show">
+      <nav class="navBar collapsible">
+        <svg class="icon icon--white nav__toggler icon-right">
+          <use xlink:href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item">
+            <a href="#">Hosting</a>
+          </li>
+          <li class="nav__item">
+            <a href="#">VPS</a>
+          </li>
+          <li class="nav__item">
+            <a href="#">Domain</a>
+          </li>
+          <li class="nav__item">
+            <a href="#">Pricing</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <section>
       <h1 id="top">Heading 1</h1>
       <p>
