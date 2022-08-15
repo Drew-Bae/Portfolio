@@ -150,7 +150,18 @@ a {
 }
 
 .banner.on {
+    background: var(--color-background_on);
+}
+
+.hidden {
     visibility: hidden;
+}
+
+.hidden.on {
+    visibility: visible;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #000;
 }
 
 .lightbulb {
