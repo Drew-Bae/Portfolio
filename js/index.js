@@ -5,12 +5,18 @@ let banner = document.querySelector('.banner');
 let circle2 = document.querySelector('.switch-circle');
 let circle1 = document.querySelector('.circle');
 let header = document.querySelector('.header-show');
+let main = document.querySelector('main');
+let title = document.querySelector('.title');
+let opener = document.querySelector('.opener');
 checkbox.onclick = function() {
     body.classList.toggle('on');
     banner.classList.toggle('on');
     circle2.classList.toggle('on');
     circle1.classList.toggle('on');
     header.classList.toggle('on');
+    main.classList.toggle('on');
+    title.classList.toggle('on');
+    opener.classList.toggle('on');
 }
 
 // Smooth Scrolling for anchor tags
