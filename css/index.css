@@ -698,3 +698,38 @@ main.on {
 .header-center {
     text-align: center;
 }
+
+.works {
+    display: none;
+}
+
+.works.on {
+    display: unset;
+}
+
+.grid {
+    display: grid;
+}
+
+.feature {
+    gap: 4rem 2rem;
+    margin: 12rem 0;
+}
+
+.feature:first-of-type {
+    margin-top: 6rem;
+}
+
+.feature-image {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .grid--1x2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .feature:nth-of-type(even) .feature-content {
+        order: 2;
+    }    
+}

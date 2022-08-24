@@ -7,6 +7,7 @@
     <title>Drew Bae's Portfolio</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <div class="banner"></div>
@@ -85,8 +86,28 @@
       </section>
       <section class="works">
         <h2 id="work" class="header-center">My Works</h2>
+        <article class="grid grid--1x2 feature">
+          <div class="feature-content" data-aos="fade-right">
+            <h3>Moshify</h3>
+            <p>
+              A modern web-commerce site displaying advanced front-end skill.
+            </p>
+          </div>
+          <picture data-aos="zoom-in-left">
+            <source type="images/webp" srcset="images/moshify.webp" />
+            <img
+              class="feature-image"
+              src="images/moshify.png"
+              alt="Example website displaying front end skills"
+            />
+          </picture>
+        </article>
       </section>
     </main>
     <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

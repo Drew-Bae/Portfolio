@@ -8,6 +8,7 @@ let header = document.querySelector('.header-show');
 let main = document.querySelector('main');
 let title = document.querySelector('.title');
 let opener = document.querySelector('.opener');
+let works = document.querySelector('.works');
 checkbox.onclick = function() {
     body.classList.toggle('on');
     banner.classList.toggle('on');
@@ -17,6 +18,7 @@ checkbox.onclick = function() {
     main.classList.toggle('on');
     title.classList.toggle('on');
     opener.classList.toggle('on');
+    works.classList.toggle('on');
 }
 
 // Smooth Scrolling for anchor tags
