@@ -81,13 +81,11 @@ h5 {
 
 p {
     color: #000;
-    width: 50ch;
     text-align: left;
 }
 
 p.on {
     color: var(--color-body);
-    width: 50ch;
     text-align: left;
 }
 
@@ -96,7 +94,6 @@ p + p {
 }
 
 article {
-    width: 80%;
     margin: 0 auto;
     font-size: 1.3em;
 }
@@ -682,6 +679,12 @@ main .content {
 
 .title.on {
     color: var(--color-body);
+}
+
+@media screen and (min-width: 1024px) {
+    .title {
+        margin-bottom: 50vh;
+    }    
 }
 
 
