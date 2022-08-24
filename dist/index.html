@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drew Bae's Portfolio</title>
+    <link rel="stylesheet" href="/normalize.1114379f.css">
+    <link rel="stylesheet" href="/css.967bad95.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <script src="/normalize.1114379f.js"></script><script src="/css.967bad95.js"></script></head>
+  <body>
+    <div class="banner"></div>
+    <section>
+      <div class="lightbulb">
+        <div class="circle">
+          <div class="wire"></div>
+          <div class="bulb">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="switch">
+        <div class="switch-circle">
+          <input class="input-lightbulb" type="checkbox" id="toggle">
+          <label class="label-lightbulb" for="toggle"></label>
+        </div>
+      </div>
+    </section>
+    <header class="header-show">
+      <nav class="navBar collapsible">
+        <section class="logo">
+          <a href="#name">
+            <h2>Hello World,</h2>
+            <h2>I'm Drew</h2>
+          </a>
+        </section>
+        <svg class="icon icon--white nav__toggler icon-right">
+          <use xlink:href="/sprite.5ec50489.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item">
+            <a href="#name">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work">My Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="#">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="logo-desktop">
+        <a href="#name">
+          <h2>Hello World,</h2>
+          <h2>I'm Drew</h2>
+        </a>
+      </section>
+      <section class="desktop-nav">
+        <input class="input-nav" type="checkbox" id="navcheck" role="button" title="menu">
+        <label class="label-nav" for="navcheck" aria-hidden="true" title="menu">
+          <span class="burger">
+            <span class="bar">
+              <span class="visuallyhidden">Menu</span>
+            </span>
+          </span>
+        </label>
+        <nav class="nav-desktop" id="menu">
+          <a href="#name">Home</a>
+          <a href="#work">My Work</a>
+          <a href="#">Contact Me</a>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <section class="opener">
+        <h1 id="name">Drew Bae</h1>
+        <h5 class="title">Full-Stack Web Developer</h5>
+      </section>
+      <section class="works">
+        <h2 id="work" class="header-center">My Works</h2>
+        <article class="grid grid--1x2 feature">
+          <div class="feature-content" data-aos="fade-right">
+            <a href="https://moshified-model-e-commerce.netlify.app/#" target="_blank">
+              <h3>Moshify</h3>
+            </a>
+            <p>
+              A modern web-commerce site displaying advanced front-end skills.
+            </p>
+          </div>
+          <a href="https://moshified-model-e-commerce.netlify.app/#" target="_blank">
+            <picture data-aos="zoom-in-left">
+              <source type="images/webp" srcset="/moshify.f33e960a.webp">
+              <img class="feature-image" src="/moshify.6047c132.png" alt="Example website displaying front end skills">
+            </picture>
+          </a>
+        </article>
+        <article class="grid grid--1x2 feature">
+          <div class="feature-content" data-aos="zoom-in-left">
+            <a href="" target="_blank">
+              <h3>University Bookstore</h3>
+            </a>
+            <p>
+              Website using the CSS Library Milligram.io and Flask as its
+              Back-End.
+            </p>
+          </div>
+          <a href="" target="_blank">
+            <picture data-aos="fade-right">
+              <source type="images/webp" srcset="/bookstore.3b93ec05.webp">
+              <img class="feature-image" src="/bookstore.62f5224c.jpg" alt="Example website showing CSS Library and Backend skills">
+            </picture>
+          </a>
+        </article>
+      </section>
+    </main>
+    <script src="/js.00a46daa.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+  </body>
+</html>
