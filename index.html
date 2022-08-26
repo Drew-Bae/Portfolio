@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+      src="https://kit.fontawesome.com/750edcf2e1.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="banner"></div>
@@ -41,17 +45,17 @@
         </svg>
         <ul class="list nav__list collapsible__content">
           <li class="nav__item">
-            <a href="#name">Home</a>
+            <a href="#top">Home</a>
           </li>
           <li class="nav__item">
             <a href="#work">My Work</a>
           </li>
           <li class="nav__item">
-            <a href="#">Contact Me</a>
+            <a href="#contact">Contact Me</a>
           </li>
         </ul>
       </nav>
-      <section class="logo-desktop">
+      <section id="top" class="logo-desktop">
         <a href="#name">
           <h2>Hello World,</h2>
           <h2>I'm Drew</h2>
@@ -73,9 +77,9 @@
           </span>
         </label>
         <nav class="nav-desktop" id="menu">
-          <a href="#name">Home</a>
+          <a href="#top">Home</a>
           <a href="#work">My Work</a>
-          <a href="#">Contact Me</a>
+          <a href="#contact">Contact Me</a>
         </nav>
       </section>
     </header>
@@ -114,25 +118,42 @@
         </article>
         <article class="grid grid--1x2 feature">
           <div class="feature-content" data-aos="zoom-in-left">
-            <a href="" target="_blank">
-              <h3>University Bookstore</h3>
-            </a>
+            <h3>University Bookstore</h3>
             <p>
               Website using the CSS Library Milligram.io and Flask as its
               Back-End.
             </p>
           </div>
-          <a href="" target="_blank">
-            <picture data-aos="fade-right">
-              <source type="images/webp" srcset="images/bookstore.webp" />
-              <img
-                class="feature-image"
-                src="images/bookstore.jpg"
-                alt="Example website showing CSS Library and Backend skills"
-              />
-            </picture>
-          </a>
+          <picture data-aos="fade-right">
+            <source type="images/webp" srcset="images/bookstore.webp" />
+            <img
+              class="feature-image"
+              src="images/bookstore.jpg"
+              alt="Example website showing CSS Library and Backend skills"
+            />
+          </picture>
         </article>
+      </section>
+      <section class="contact">
+        <h2 id="contact" class="header-center">Connect With Me</h2>
+        <div class="content-center">
+          <a href="mailto:drewbae912@gmail.com"
+            ><i class="fa-solid fa-envelope-open-text fa-6x fa-bounce"></i
+          ></a>
+          <a
+            href="https://github.com/Drew-Bae"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="middle-icon"
+            ><i class="fa-brands fa-github fa-6x fa-bounce"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/drewbae_ig/?hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fa-brands fa-instagram fa-6x fa-bounce"></i
+          ></a>
+        </div>
       </section>
     </main>
     <script src="js/index.js"></script>

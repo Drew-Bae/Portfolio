@@ -736,3 +736,25 @@ main.on {
         order: 2;
     }    
 }
+
+/* Contact Me */
+.contact {
+    display: none;
+}
+
+.contact.on {
+    display: unset;
+}
+
+#contact {
+    margin-bottom: 5rem;
+}
+
+.content-center {
+    text-align: center;
+}
+
+.middle-icon {
+    margin-left: 20px;
+    margin-right: 20px;
+}

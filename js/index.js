@@ -9,6 +9,7 @@ let main = document.querySelector('main');
 let title = document.querySelector('.title');
 let opener = document.querySelector('.opener');
 let works = document.querySelector('.works');
+let contact = document.querySelector('.contact');
 checkbox.onclick = function() {
     body.classList.toggle('on');
     banner.classList.toggle('on');
@@ -19,6 +20,7 @@ checkbox.onclick = function() {
     title.classList.toggle('on');
     opener.classList.toggle('on');
     works.classList.toggle('on');
+    contact.classList.toggle('on');
 }
 
 // Smooth Scrolling for anchor tags
